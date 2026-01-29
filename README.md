@@ -1,7 +1,7 @@
 # Multiclass Liver Disease Classification with CatBoost
 
 ## 📌 Project Overview
-This project builds a **high-performance multiclass classification model** for liver disease diagnosis using **CatBoost**, with **robust cross-validation** and **model explainability via SHAP**.
+This project builds a **high-performance multiclass classification model** for liver disease diagnosis using **CatBoost**, with **robust cross-validation**.
 
 The goal is not just accuracy, but:
 - Proper handling of categorical features
