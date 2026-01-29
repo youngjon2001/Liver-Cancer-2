@@ -69,3 +69,13 @@ CatBoostClassifier(
     cat_features=cat_features_idx,
     verbose=100
 )
+
+Why These Choices?
+
+- TotalF1 → Better metric for imbalanced multiclass problems
+
+- auto_class_weights → Prevents minority class collapse
+
+- Depth & Regularization → Controls overfitting
+
+- Bernoulli bootstrap → Improves generalization
