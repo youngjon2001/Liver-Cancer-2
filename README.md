@@ -90,5 +90,11 @@ scores = cross_val_score(
     y,
     cv=cv,
     scoring='f1_weighted'
-)```
+)
+```
 
+- Metric: F1-weighted
+
+- Why: Accuracy is misleading in imbalanced medical datasets
+
+  Note: CatBoost CV is computationally expensive by design (this is expected, not a bug)
