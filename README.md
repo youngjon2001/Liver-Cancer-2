@@ -80,3 +80,15 @@ CatBoostClassifier(
 - Depth & Regularization → Controls overfitting
 
 - Bernoulli bootstrap → Improves generalization
+  
+```python
+  cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+
+scores = cross_val_score(
+    model,
+    X,
+    y,
+    cv=cv,
+    scoring='f1_weighted'
+)```
+
