@@ -54,3 +54,18 @@ cat_features_idx = [
     for col in categorical_columns
     if col in X.columns
 ]
+
+CatBoostClassifier(
+    loss_function='MultiClass',
+    eval_metric='TotalF1',
+    iterations=2000,
+    learning_rate=0.03,
+    depth=8,
+    l2_leaf_reg=5,
+    subsample=0.8,
+    bootstrap_type='Bernoulli',
+    auto_class_weights='Balanced',
+    random_seed=42,
+    cat_features=cat_features_idx,
+    verbose=100
+)
