@@ -98,3 +98,51 @@ scores = cross_val_score(
 - Why: Accuracy is misleading in imbalanced medical datasets
 
   Note: CatBoost CV is computationally expensive by design (this is expected, not a bug)
+---
+  🏆 Performance
+
+- Multiclass ROC-AUC: ~0.97
+
+- Cross-validated F1-weighted: Stable across folds
+
+- This level of performance indicates strong separability without obvious overfitting.
+  ---
+
+📁 Project Structure
+```python
+├── Liver_dataset_2.ipynb
+├── README.md
+├── requirements.txt
+```
+---
+🧪 Reproducibility
+
+- Fixed random seeds
+
+- Stratified sampling
+
+- Explicit feature handling
+  ---
+  📌 Key Takeaways
+
+- CatBoost is ideal for structured medical data
+
+- Cross-validation cost ≠ inefficiency — its robustness
+
+- Explainability is non-negotiable in healthcare ML
+
+- This project is interview-ready and production-aware
+
+  ---
+  🚀 Future Improvements
+
+- External validation on unseen hospital data
+
+- Probability calibration (Platt / Isotonic)
+
+- Model deployment as a clinical decision support API
+---
+👤 Author
+
+Joseph
+Medical Laboratory Scientist → Data Analyst → ML / AI Engineer
