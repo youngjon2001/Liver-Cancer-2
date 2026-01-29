@@ -70,7 +70,7 @@ CatBoostClassifier(
     verbose=100
 )
 ---
-Why These Choices?
+### Why These Choices?
 
 - TotalF1 → Better metric for imbalanced multiclass problems
 
