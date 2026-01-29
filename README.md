@@ -1,4 +1,4 @@
-# Multiclass Liver Disease Classification with CatBoost & SHAP
+# Multiclass Liver Disease Classification with CatBoost
 
 ## 📌 Project Overview
 This project builds a **high-performance multiclass classification model** for liver disease diagnosis using **CatBoost**, with **robust cross-validation** and **model explainability via SHAP**.
@@ -106,9 +106,10 @@ scores = cross_val_score(
 - Cross-validated F1-weighted: Stable across folds
 
 - This level of performance indicates strong separability without obvious overfitting.
+  
   ---
 
-📁 Project Structure
+## 📁 Project Structure
 ```python
 ├── Liver_dataset_2.ipynb
 ├── README.md
@@ -124,7 +125,7 @@ scores = cross_val_score(
 - Explicit feature handling
   
   ---
-  📌 Key Takeaways
+  ## 📌 Key Takeaways
 
 - CatBoost is ideal for structured medical data
 
@@ -135,7 +136,7 @@ scores = cross_val_score(
 - This project is interview-ready and production-aware
 
   ---
-  🚀 Future Improvements
+  ## 🚀 Future Improvements
 
 - External validation on unseen hospital data
 
@@ -143,7 +144,7 @@ scores = cross_val_score(
 
 - Model deployment as a clinical decision support API
 ---
-👤 Author
+## 👤 Author
 
 Joseph
 Medical Laboratory Scientist → Data Analyst → ML / AI Engineer
