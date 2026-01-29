@@ -99,7 +99,7 @@ scores = cross_val_score(
 
   Note: CatBoost CV is computationally expensive by design (this is expected, not a bug)
 ---
-  🏆 Performance
+  ## 🏆 Performance
 
 - Multiclass ROC-AUC: ~0.97
 
