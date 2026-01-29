@@ -68,7 +68,8 @@ CatBoostClassifier(
     random_seed=42,
     cat_features=cat_features_idx,
     verbose=100
-)
+) 
+```
 ---
 ### Why These Choices?
 
